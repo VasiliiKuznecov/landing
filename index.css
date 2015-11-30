@@ -85,8 +85,6 @@ label
 .shopch,
 .check
 {
-    height: 793px;
-    width: 415px;
     display: none;
 }
 
@@ -94,6 +92,8 @@ label
 #shopch:checked ~ .shopch,
 #check:checked ~ .check
 {
+    height: 793px;
+    width: 415px;
     display: block;
 }
 
