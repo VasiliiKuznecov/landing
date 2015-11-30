@@ -1,0 +1,151 @@
+html,
+body
+{
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+header
+{
+    width: 100%;
+    min-height: 600px;
+    background-image: url('shop.jpg');
+    background-position: left top;
+    color: white;
+}
+
+.wrapper
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.headerText
+{
+    text-align: center;
+    font-size: 38px;
+}
+
+h1
+{
+    font-size: 100px;
+    color: #0cf;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    margin-bottom: 80px;
+}
+
+.downloadWrapper
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.download
+{
+    height: 80px;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexCol
+{
+    align-self: center;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 60px;
+    color: #aaa;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.items,
+.shopch,
+.check
+{
+    display: none;
+}
+
+#items:checked ~ .items,
+#shopch:checked ~ .shopch,
+#check:checked ~ .check
+{
+    display: block;
+}
+
+#items:checked ~ .flexCol .itemsL,
+#shopch:checked ~ .flexCol .shopchL,
+#check:checked ~ .flexCol .checkL
+{
+    color: #000;
+}
+
+.flexVert
+{
+    display: flex;
+    flex-direction: column;
+}
+
+ul
+{
+    align-self: flex-end;
+}
+
+li
+{
+    margin-bottom: 20px;
+}
+
+.flexWrap
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partner
+{
+    max-height: 100px;
+    margin-bottom: 15px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.productName
+{
+    font-size: 70px;
+    color: #0cf;
+}
+
+footer
+{
+    width: 100%;
+    background-image: url('footer.jpg');
+    color: #fff;
+    height: 450px;
+}
