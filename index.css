@@ -16,7 +16,7 @@ body
 header
 {
     width: 100%;
-    min-height: 600px;
+    min-height: 650px;
     background-image: url('shop.jpg');
     background-position: left top;
     color: white;
@@ -62,18 +62,19 @@ h2
 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .flexCol
 {
     align-self: center;
+    padding: 10px;
 }
 
-label
+.oli
 {
-    display: block;
+    font-weight: bold;
     margin-bottom: 60px;
-    color: #aaa;
 }
 
 .hidden
@@ -85,21 +86,8 @@ label
 .shopch,
 .check
 {
-    display: none;
-}
-
-#items:checked ~ .items,
-#shopch:checked ~ .shopch,
-#check:checked ~ .check
-{
-    display: block;
-}
-
-#items:checked ~ .flexCol .itemsL,
-#shopch:checked ~ .flexCol .shopchL,
-#check:checked ~ .flexCol .checkL
-{
-    color: #000;
+    width: 415px;
+    height: 793px;
 }
 
 .flexVert

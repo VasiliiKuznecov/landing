@@ -2,15 +2,15 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Economy+</title>
+        <title>Cheapy</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header>
             <div class="wrapper">
                 <div class="headerText">
-                    <h1>Economy+</h1>
-                    <h2>Покупать продукты теперь дешевле и удобней</h2>
+                    <h1>Cheapy</h1>
+                    <h2>Составь список продуктов и узнай где купить их близко и недорого</h2>
                     <div class="downloadWrapper">
                         <img class="download" src="google-play-badge.png">
                         <img class="download" src="app-store-badge.svg">
@@ -19,30 +19,69 @@
             </div>
         </header>
         <main class="wrapper">
-            <div class="flex">
-                <input name="phoneImg" class="hidden" id="items" type="radio" checked>
-                <input name="phoneImg" class="hidden" id="shopch" type="radio">
-                <input name="phoneImg" class="hidden" id="check" type="radio">
-                <div class="flexCol">
-                    <label class="itemsL" for="items">
-                        Составьте продуктовую корзину
-                    </label>
-                    <label class="shopchL" for="shopch">
-                        Приложение подберет для Вас самые дешевые магазины для данной корзины
-                        и покажет их на карте
-                    </label>
-                    <label class="checkL" for="check">
-                        В магазине используйте приложение как удобный список покупок
-                    </label>
+            <ol>
+                <div class="flex">
+                    <div class="flexCol">
+                        <li class="itemsL oli" for="items">
+                            Составь продуктовую корзину
+                        </li>
+                            <ul type="disc">
+                                <li>
+                                    Поиск по продуктам, магазинам и производителям
+                                </li>
+                                <li>
+                                    Рейтинги товаров и отзывы
+                                </li>
+                                <li>
+                                    Делись своей корзиной с друзьями и близкими
+                                </li>
+                            </ul>
+                    </div>
+                    <img class="items" src="items.png">
                 </div>
-                <img class="items" src="items.png">
-                <img class="shopch" src="shopch.png">
-                <img class="check" src="check.png">
-            </div>
+                <div class="flex">
+                    <div class="flexCol">
+                        <li class="shopchL oli" for="shopch">
+                            Выбери магазин
+                        </li>
+                        <ul type="disc">
+                            <li>
+                                Поиск магазинов на карте
+                            </li>
+                            <li>
+                                Сортировка по цене и расстоянию
+                            </li>
+                            <li>
+                                Задай радиус поиска магазинов
+                            </li>
+                            <li>
+                                Обозначь область поиска, закрасив участок карты
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="shopch" src="shopch.png">
+                </div>
+                <div class="flex">
+                    <div class="flexCol">
+                        <li class="checkL oli" for="check">
+                            В магазине используй приложение как список покупок
+                        </li>
+                        <ul type="disc">
+                            <li>
+                                Отмечай купленные товары одним движением пальца
+                            </li>
+                            <li>
+                                Сканируй чек, чтобы следить за расходами
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="check" src="check.png">
+                </div>
+            </ol>
             <hr>
             <div class="flexVert">
                 <p>
-                    В нашей базе:
+                    У нас в базе:
                 </p>
                 <ul>
                     <li>
@@ -52,11 +91,11 @@
                         600 магазинов города
                     </li>
                     <li>
-                        Цены на продукты обновляются сразу же
+                        Регулярное обновление цен на продукты
                     </li>
                 </ul>
                 <p>
-                    Наши партнеры:
+                    Партнеры:
                 </p>
                 <div class="flexWrap">
                     <img class="partner" src="par1.png">
@@ -73,9 +112,9 @@
                 <div class="wrapper">
                     <div class="center">
                         <p>
-                            Попробуйте сейчас и начните экономить на покупке продуктов c
+                            Попробуйте сегодня и экономь на покупке продуктов c
                         </p>
-                        <p class="productName">Economy+</p>
+                        <p class="productName">Cheapy</p>
                     </div>
                     <div class="downloadWrapper">
                         <img class="download" src="google-play-badge.png">
